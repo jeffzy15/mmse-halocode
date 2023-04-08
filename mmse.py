@@ -1,5 +1,3 @@
-
-
 import event, halo, time
 import time
 # initialize variables
