@@ -12,7 +12,7 @@ def on_start():
     global score, cog, items_list
     score = 0
     cog = 0
-    halo.wifi.start(ssid = "Galaxy A12BD74", password = "rxcr4527", mode = halo.wifi.WLAN_MODE_STA)
+    halo.wifi.start(ssid = "{your_wifi}", password = "{your_password}", mode = halo.wifi.WLAN_MODE_STA)
     while not halo.wifi.is_connected():
       # DO SOMETHING
       pass
